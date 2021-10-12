@@ -22,8 +22,7 @@ h1{
 }
 
 
-img{
-    
+header img{
     vertical-align: middle;
 }
    
@@ -31,33 +30,33 @@ img{
 .header{
     padding: 1em;
     background-color: white;
-    
 }
 
-.task{
-    background-color: lightskyblue;
-    color: white;
-    border: 1px solid lightskyblue;
+
+.button{
     padding: 0.5em;
     font-size: smaller;
-    border-radius: 10%;
     font-weight: bold;
-    
+    border-radius: 10%;
+    border: 1px solid;
+}
+
+.add-task{
+    background-color: lightskyblue;
+    color: white;
+    border-color: lightskyblue;
 }
 
 .add-section{
     background-color: white;
-    color: grey;
-    border: 1px solid grey;
-    padding: 0.5em;
-    font-size: smaller;
-    border-radius: 10%;
-    font-weight: bold;
+    color: lightgrey;
+    border-color: lightgrey;
 }
 
 
 hr{
     margin: 1em 0;
+    width: 100%;
 }
 
 .list{
