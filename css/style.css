@@ -9,16 +9,35 @@ body{
 }
 
 h1{
-    display: inline-block;
+    display: inline;
     font-family: 'Roboto', sans-serif; 
+    
 }
 
-header img{
+ img{
     vertical-align: middle;
 }
    
 
 .header{
     background-color: white;
-    padding: 0.5em;
+    padding: 1%;
 }
+
+li:before {
+  content: "\2611"; 
+  font-family: FontAwesome;
+  display: inline-block;
+  color: green;
+  font-size: 1em;
+
+}
+
+.label{
+    background-color: #86CAF1;
+    padding: 0.4em;
+    font-size: 0.7em;
+    color: white;
+    border-radius: 30%;
+}
+
